@@ -102,9 +102,6 @@ tensorboard --logdir outputs/logs
 * Loss curves for generator and discriminator saved to TensorBoard.
 * Generated and real image grids plotted every `log_interval` steps.
 
-### Results
-
-![Sample Generated Images](https://user-images.githubusercontent.com/your-username/gan-mnist/assets/sample_generated.png)
 
 ### Directory Structure
 
