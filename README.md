@@ -1,4 +1,4 @@
-##🧠 GAN on MNIST
+# 🧠 GAN on MNIST
 
 This project implements a vanilla Generative Adversarial Network (GAN) in PyTorch to learn the distribution of handwritten digits from the MNIST dataset and synthesize new, realistic-looking digit images. It comes with:
 
