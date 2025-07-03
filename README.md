@@ -1,10 +1,15 @@
 ## GAN on MNIST
 
 This project implements a vanilla Generative Adversarial Network (GAN) in PyTorch to learn the distribution of handwritten digits from the MNIST dataset and synthesize new, realistic-looking digit images. It comes with:
+
 	•	Fully-connected Generator & Discriminator architectures, following DCGAN initialization guidelines
+ 
 	•	A training loop that alternately updates the discriminator (to distinguish real vs. fake digits) and the generator (to fool the discriminator)
+ 
 	•	TensorBoard hooks for visualizing loss curves, plus on-the-fly image grids showing both generated and real samples
+ 
 	•	A configurable setup via a GANConfig dataclass (learning rate, batch size, number of epochs, etc.)
+ 
 	•	Utility scripts for weight initialization, data loading (MNIST with normalization), and easy command-line training
 
 This gives newcomers everything they need to reproduce the experiment, tweak hyperparameters, and explore how adversarial training produces ever-more convincing digit images.
