@@ -38,8 +38,8 @@ This project implements a simple fully-connected GAN to generate handwritten dig
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/gan-mnist.git
-cd gan-mnist
+git https://github.com/frezazadeh/Generative-Adversarial-Network-on-MNIST.git
+cd Generative-Adversarial-Network-on-MNIST
 ```
 
 2. (Optional) Create and activate a virtual environment:
